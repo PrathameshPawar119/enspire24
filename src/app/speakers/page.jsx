@@ -81,8 +81,8 @@ const SpeakersPage = () => {
           </motion.div>
         </div>
       </div>
-      <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-        <h1 className="text-6xl">Participate in Our Startup Expo</h1>
+      <div className="w-screen mt-24 h-screen flex flex-col gap-16 items-center justify-center text-center">
+        <h1 className="text-6xl mt-12">Participate in Our Startup Expo</h1>
         <div className="text-3xl mx-8 md:mx-32 my-6">
           Explore the future of entrepreneurship at the Startup Expo, a dynamic
           showcase of innovative startups and groundbreaking ideas. This vibrant
