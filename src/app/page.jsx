@@ -28,12 +28,12 @@ const Homepage = () => {
           Empowering Dreams, Igniting Futures: Enspire 2024 - Where Innovation Meets Inspiration!.
           </div>
           <div className="w-full flex gap-4 items-center justify-center">
-            <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPksbTsNjHXU-JVnqLL9e3EVHkc8ZvtVsPGclxWs3n-g6BIw/viewform" target="_blank" className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
               Register
-            </button>
-            <button className="p-4 rounded-lg ring-1 ring-black">
+            </a>
+            <a href="https://ecell.dmce.ac.in/our-team/" target="_blank" className="p-4 rounded-lg ring-1 ring-black">
               Contact
-            </button>
+            </a>
           </div>
         </div>
       </div>

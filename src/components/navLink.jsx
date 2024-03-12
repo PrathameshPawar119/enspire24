@@ -11,7 +11,7 @@ const NavLink = ({ link }) => {
       <div className="relative inline-block overflow-hidden rounded p-1 transition-colors duration-300">
         <span className="block">{link.title}</span>
         <span
-          className={`absolute inset-0 bg-gradient-to-r from-transparent to-gray-200 opacity-0 transition-opacity duration-300 ${
+          className={`absolute inset-0 bg-gradient-to-r from-transparent to-violet-200 opacity-0 transition-opacity duration-300 ${
             pathName === link.url ? 'opacity-100' : ''
           }`}
         />

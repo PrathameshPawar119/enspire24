@@ -59,15 +59,12 @@ const AgendaPage = () => {
             <h1 className="font-bold text-2xl">ENSPIRE</h1>
             {/* BIOGRAPHY DESC */}
             <p className="text-lg">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-              harum quibusdam cupiditate nobis accusamus sed aut aperiam,
-              reiciendis numquam! Voluptas voluptatibus obcaecati dolore itaque
-              suscipit! Vel doloremque numquam quam nihil.
+            Electrifying flagship event of ECELL-DMCE that&#39;s all about firing up your entrepreneurial dreams! Imagine rubbing shoulders with superstar entrepreneurs from diverse fields who dish out their secrets, clear your doubts, and even have spontaneous chats with you. ENSPIRE is no ordinary event; it&#39;s your backstage pass to the world of real-world business magic.
+
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            </span>
+            ENSPIRE: Where dreams meet reality. Join us for an unforgettable journey into the world of entrepreneurship.            </span>
 
             {/* BIOGRAPHY SCROLL SVG */}
             <motion.svg
@@ -181,7 +178,7 @@ const AgendaPage = () => {
                   </div>
                   {/* SESSION VENUE */}
                   <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Main Auditorium
+                    Main Auditorium (805)
                   </div>
                 </div>
                 {/* CENTER */}
@@ -211,20 +208,16 @@ const AgendaPage = () => {
                 <div className="w-1/3 ">
                   {/* SESSION TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Keynote Speech
+                    1st Speaker Session, Q&A
                   </div>
                   {/* SESSION DESC */}
                   <div className="p-3 text-sm italic">
-                    Gain valuable insights from our keynote speaker.
+                    Mr. Shridhar Mankar - (Creator of 5MinutesEngineering)  
                   </div>
                   {/* SESSION TIME */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     10:30 AM
                   </div>
-                  {/* SESSION VENUE */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Main Auditorium
-                  </div>
                 </div>
               </div>
               {/* TIMELINE LIST ITEM */}
@@ -233,54 +226,41 @@ const AgendaPage = () => {
                 <div className="w-1/3 ">
                   {/* SESSION TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Workshop: Entrepreneurial Skills
+                    Quiz : Decode the Startup
                   </div>
                   {/* SESSION DESC */}
                   <div className="p-3 text-sm italic">
-                    Learn essential entrepreneurial skills in this hands-on
-                    workshop.
+                  Recognize industry of startup by its name
+
+                  </div>
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+              {/* TIMELINE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* SESSION TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    2nd Speaker Session and Q&A
+                  </div>
+                  {/* SESSION DESC */}
+                  <div className="p-3 text-sm italic">
+                  Mr. Vaibhav Goyal - Co-Founder & CEO, Predixion AI  
                   </div>
                   {/* SESSION TIME */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
                     11:30 AM
                   </div>
-                  {/* SESSION VENUE */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Workshop Hall A
-                  </div>
-                </div>
-                {/* CENTER */}
-                <div className="w-1/6 flex justify-center">
-                  {/* LINE */}
-                  <div className="w-1 h-full bg-gray-600 rounded relative">
-                    {/* LINE CIRCLE */}
-                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
-                  </div>
-                </div>
-                {/* RIGHT */}
-                <div className="w-1/3 "></div>
-              </div>
-              {/* TIMELINE LIST ITEM */}
-              <div className="flex justify-between h-48">
-                {/* LEFT */}
-                <div className="w-1/3 ">
-                  {/* SESSION TITLE */}
-                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Panel Discussion: Emerging Trends in Entrepreneurship
-                  </div>
-                  {/* SESSION DESC */}
-                  <div className="p-3 text-sm italic">
-                    Join industry experts as they discuss the latest trends
-                    shaping the entrepreneurial landscape.
-                  </div>
-                  {/* SESSION TIME */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">
-                    1:00 PM
-                  </div>
-                  {/* SESSION VENUE */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Panel Hall
-                  </div>
                 </div>
                 {/* CENTER */}
                 <div className="w-1/6 flex justify-center">
@@ -309,44 +289,23 @@ const AgendaPage = () => {
                 <div className="w-1/3 ">
                   {/* SESSION TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Networking Lunch
+                    Quiz : The Budding Entreprenur
                   </div>
                   {/* SESSION DESC */}
                   <div className="p-3 text-sm italic">
-                    Enjoy a delicious lunch while networking with fellow
-                    attendees and speakers.
-                  </div>
-                  {/* SESSION TIME */}
-                  <div className="p-3 text-red-400 text-sm font-semibold">
-                    2:00 PM
-                  </div>
-                  {/* SESSION VENUE */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Dining Hall
+                  Entrepreneurship test
                   </div>
                 </div>
               </div>
-              {/* TIMELINE LIST ITEM */}
               <div className="flex justify-between h-48">
                 {/* LEFT */}
                 <div className="w-1/3 ">
                   {/* SESSION TITLE */}
                   <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
-                    Workshop: Pitch Perfect - Mastering the Art of Business
-                    Pitching
+                    Lunch Time
                   </div>
-                  {/* SESSION DESC */}
-                  <div className="p-3 text-sm italic">
-                    Learn how to deliver a compelling business pitch that
-                    captures attention and secures investment.
-                  </div>
-                  {/* SESSION TIME */}
                   <div className="p-3 text-red-400 text-sm font-semibold">
-                    3:00 PM
-                  </div>
-                  {/* SESSION VENUE */}
-                  <div className="p-1 rounded bg-white text-sm font-semibold w-fit">
-                    Workshop Hall B
+                    12:15 PM
                   </div>
                 </div>
                 {/* CENTER */}
@@ -359,6 +318,106 @@ const AgendaPage = () => {
                 </div>
                 {/* RIGHT */}
                 <div className="w-1/3 "></div>
+              </div>
+              {/* TIMELINE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* SESSION TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    3rd Speaker Session and Q&A
+                  </div>
+                  {/* SESSION DESC */}
+                  <div className="p-3 text-sm italic">
+                  Mr. Ronak Soni - TEDx Speaker, Co-Founder of Aapka CFO
+                  </div>
+                  {/* SESSION TIME */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    12:45 PM
+                  </div>
+
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+              {/* TIMELINE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  {/* SESSION TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    Quiz: Acronym Game
+                  </div>
+                  {/* SESSION DESC */}
+                  <div className="p-3 text-sm italic">
+                  Entrepreneur Acronyms
+                  </div>
+                </div>
+              </div>
+              {/* TIMELINE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 ">
+                  {/* SESSION TITLE */}
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                    4th Speaker Session and Q&A
+                  </div>
+                  {/* SESSION DESC */}
+                  <div className="p-3 text-sm italic">
+                  Mr. Devesh Chawla - An All-rounder Entrepreneur and Innovator                    </div>
+                  {/* SESSION TIME */}
+                  <div className="p-3 text-red-400 text-sm font-semibold">
+                    01:45 PM
+                  </div>
+
+                </div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 "></div>
+              </div>
+              {/* TIMELINE LIST ITEM */}
+              <div className="flex justify-between h-48">
+                {/* LEFT */}
+                <div className="w-1/3 "></div>
+                {/* CENTER */}
+                <div className="w-1/6 flex justify-center">
+                  {/* LINE */}
+                  <div className="w-1 h-full bg-gray-600 rounded relative">
+                    {/* LINE CIRCLE */}
+                    <div className="absolute w-5 h-5 rounded-full ring-4 ring-red-400 bg-white -left-2"></div>
+                  </div>
+                </div>
+                {/* RIGHT */}
+                <div className="w-1/3 ">
+                  <div className="bg-white p-3 font-semibold rounded-b-lg rounded-s-lg">
+                  Vote of Thanks
+                  </div>
+                </div>
               </div>
             </motion.div>
           </div>
