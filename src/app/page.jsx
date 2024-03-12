@@ -2,6 +2,12 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+ 
+// export const metadata = {
+//   title: 'Enspire - Flagship Event',
+//   description: 'Enspire is the flagship event of Ecell DMCE (Entrepreurship Cell - Datta Meghe College of Engineering)',
+// }
+ 
 
 const Homepage = () => {
   return (
@@ -12,6 +18,7 @@ const Homepage = () => {
       animate={{ y: "0%" }}
       transition={{ duration: 1 }}
     >
+      {/* <head><meta name="google-site-verification" content="60_7SYi3TgmDiIlLJX2kG8Yb3Z3WhnSe-S42aI1qhSM" /></head> */}
       <div className="h-full text-center flex flex-col items-center justify-center px-6 sm:px-4 md:px-8 lg:px-14 xl:px-36 2xl:px-48">
         <div>
           <Image
